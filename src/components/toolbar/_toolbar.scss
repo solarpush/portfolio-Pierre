@@ -1,0 +1,16 @@
+.toolbarContainer {
+  width: 80%;
+  div {
+    width: 100%;
+    justify-content: space-around;
+    button {
+      font-weight: 700;
+      width: 100%;
+      .MuiBottomNavigationAction-label {
+        font-family: $font1;
+        font-size: 3rem;
+        white-space: nowrap;
+      }
+    }
+  }
+}
