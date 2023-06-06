@@ -22,7 +22,8 @@ function MyCard(props: {
     <div className="cardContainer">
       <Card className="card">
         <CardMedia
-          sx={{ height: "60%", background: "contained" }}
+        className="cardImage"
+          sx={{ height: "60%" }}
           image={props.image.src}
           title={props.image.title}
         />

@@ -2,7 +2,7 @@ import { Paper } from "@mui/material";
 
 export function consultingModal() {
   return (
-    <Paper elevation={6} sx={{ width: "35%", padding: "15px" }}>
+    <Paper elevation={6} id="paper" sx={{ width: "35%", padding: "15px" }}>
       <h3>Comment se déroule un audit ?</h3>
       <p>Un audit informatique se fait en 3 étapes clefs</p>
       <ul>
@@ -21,7 +21,7 @@ export function consultingModal() {
 }
 export function programmationModal() {
   return (
-    <Paper elevation={6} sx={{ width: "35%", padding: "15px" }}>
+    <Paper elevation={6} id="paper" sx={{ width: "35%", padding: "15px" }}>
       <h3>Quels languages, frameworks et application ?</h3>
       <div style={{ display: "grid", gridTemplateColumns: "50% 50%" }}>
         <div>
@@ -50,7 +50,7 @@ export function programmationModal() {
 }
 export function formationModal() {
   return (
-    <Paper elevation={6} sx={{ width: "35%", padding: "15px" }}>
+    <Paper elevation={6} id="paper" sx={{ width: "35%", padding: "15px" }}>
       <h3>Comment se déroule une formation ?</h3>
       <p>
         Les formations sont essentielles pour vos employés, il peut être
@@ -84,7 +84,7 @@ export function formationModal() {
 }
 export function crmModal() {
   return (
-    <Paper elevation={6} sx={{ width: "35%", padding: "15px" }}>
+    <Paper elevation={6} id="paper" sx={{ width: "35%", padding: "15px" }}>
       <h3>Quelles sont les fonctionnalitées implémenté ?</h3>
       <p>
         Le CRM possède un tas de fonctionnalitées, voici une liste non
@@ -142,7 +142,7 @@ export function crmModal() {
 }
 export function blindTestModal() {
   return (
-    <Paper elevation={6} sx={{ width: "35%", padding: "15px" }}>
+    <Paper elevation={6} id="paper" sx={{ width: "35%", padding: "15px" }}>
       <h3>Comment ça marche ?</h3>
       <p>
         Un blind test, c'est des disputes pour savoir qui à voter le premier et
